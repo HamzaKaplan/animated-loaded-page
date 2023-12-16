@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+
+.bg {
+background: no-repeat center/cover
+url('korsan.jpg');
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+height: 100vh;
+width: 100vw;
+opacity: 1;
+}
+
+.loading-text {
+    font-size: 100px;
+    font-family: 'Rubik Vinyl';
+    
+}
